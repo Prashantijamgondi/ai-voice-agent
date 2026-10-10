@@ -1,4 +1,4 @@
-const Retell = require('retell-sdk');
+const { Retell } = require('retell-sdk');
 const { RETELL_API_KEY, RETELL_PHONE_NUMBER } = require('../config/env');
 const { generatePrompt } = require('./promptService');
 
